@@ -6,7 +6,7 @@ elseif game.PlaceId == 1632210982 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/ZombieAttack/Hardmode/loader.lua"))()
 elseif game.PlaceId == 12192552089 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/FruitWarrior/Loader.lua"))()
-elseif game.PlaceId == then
+elseif game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/MurderMastery/loader.lua"))()
 else
     game.Players.LocalPlayer:Kick("Game not found in list script.")
