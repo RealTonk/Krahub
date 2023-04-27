@@ -3,6 +3,7 @@ repeat wait() until game:IsLoaded()
 -- // Client bypass
 loadstring(request({['Url']='https://raw.githubusercontent.com/RealTonk/KeepScripts/main/BypassClinet/loader.lua',['Method']='GET'}).Body)()
 
+wait(0.1)
 -- // Script loader
 if game.PlaceId == 1240123653 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/ZombieAttack/EasyMode/loader.lua"))()
