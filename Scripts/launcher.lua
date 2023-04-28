@@ -1,8 +1,4 @@
-repeat
-    wait()
-until game:IsLoaded()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/BypassClinet/loader.lua"))()
+-- // Script loader
 
 if game.PlaceId == 1240123653 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/ZombieAttack/EasyMode/loader.lua"))()
@@ -21,3 +17,5 @@ else
     wait(1.5)
     game:Shutdown()
 end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/BypassClinet/loader.lua"))()
